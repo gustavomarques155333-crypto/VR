@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vibe Radical</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      background-color: #131313; /* Fundo preto */
+      color: #fff; /* Texto branco */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    img.logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin-bottom: 25px;
+      object-fit: contain;
+      border: 3px solid #ddba6c; /* contorno vermelho */
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      color: #ffffff; /* vermelho vibrante */
+      letter-spacing: 2px;
+    }
+    p.slogan {
+      font-size: 1.2rem;
+      color: #ddd;
+      margin-bottom: 40px;
+      font-style: italic;
+    }
+    .links {
+      width: 100%;
+      max-width: 320px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .links a {
+      text-decoration: none;
+      background: #000000; /* vermelho vibrante */
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      padding: 15px;
+      border-radius: 30px;
+      transition: background 0.3s ease;
+      font-size: 1.1rem;
+      box-shadow: 0 4px 12px #ddba6c(255, 0, 34, 0.5);
+    }
+    .links a:hover {
+      background: #ddba6c;
+      box-shadow: 0 6px 18px #ddba6c(230, 0, 27, 0.7);
+    }
+    footer {
+      margin-top: auto;
+      margin-bottom: 15px;
+      font-size: 0.9rem;
+      color: #4d4d4d;
+    }
+
+    /* Responsividade */
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      .links a {
+        font-size: 1rem;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo: troque o src pelo link da sua logo se quiser -->
+  <img
+    class="logo"
+    src="https://cdn.discordapp.com/attachments/1384425536817987654/1384531996461629500/IMG_20250616_174433_942.webp?ex=68975367&is=689601e7&hm=87d8178bab2e23339832e7b1a9a47469daedf29e320e4acede4be31665c3167b&"
+    alt="Logo Vibe Radical"
+  />
+
+  <h1>Vibe Radical</h1>
+  <p class="slogan">Transforme o comum em extraordinário.</p>
+
+  <div class="links">
+    <!-- Troque os href pelos seus links reais -->
+    <a href="https://www.instagram.com/vibe.radical?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://wa.me/+5573982268371" target="_blank" rel="noopener noreferrer">Começe Aqui!</a>
+    <a href="https://www.tiktok.com/@vibe.radical?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">Tiktok</a>
+  </div>
+
+  <footer>
+    © 2025 Vibe Radical. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
